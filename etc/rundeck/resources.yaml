@@ -1,0 +1,14 @@
+- node1.mtl:
+  hostname: node1.mtl
+  nodename: node1.mtl
+  tags: 'Rundeck'
+  username: 'root'
+  ssh-authentication: 'password'
+  ssh-password-storage-path: 'keys/developer.pass'
+- node2.mtl:
+  hostname: node2.mtl
+  nodename: node2.mtl
+  tags: 'slave'
+  username: root
+  ssh-authentication: 'password'
+  ssh-password-storage-path: 'keys/developer.pass'
